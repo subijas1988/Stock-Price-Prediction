@@ -1,2 +1,4 @@
 # Stock-Price-Prediction
-Stock Price Forecasting using 10-Year Data with 80/20 train-test split and Short-Term Prediction (Jan-Mar 2025) with 10 years of stock data during training and 3 months of stock between Jan-Mar 2025 for testing.
+The project provides an in-depth examination of time series prediction of stock market with classical and deep learning models. It is organized in three different scenarios to thoroughly compare the performance and generalization abilities of the GRM, LSTM and GRU models. 
+Scenario 1 centers around the typical train-test of 80/20 and a short-term prediction looking at each individual stock to examine the raw abilities of each model in predicting. Scenario 2, the cross-stock generalization test examines the robustness and transferability of the models by training them on a single stock, and then testing by an entirely different set of stocks. 
+Scenario 3 takes the most-performing model further to test the extent to which it can be applied in real life in automating multi-stock time series forecasting across a wide range of 30 stocks.
